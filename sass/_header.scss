@@ -1,0 +1,41 @@
+/*accueil*/
+.head-accueil{
+    
+    width: 400px;
+}
+
+.logo img{
+    width: 160px;
+    height: auto;
+    margin: 3%;
+    padding-left: 27%;
+}  
+ 
+/*restaurant*/
+.head{
+    display: flex;
+    justify-content: space-between;
+    max-width: 255px;
+  }
+  .arrow{
+    margin-top: 15px;
+  }
+  .fa-arrow-left{
+    width:  auto;
+    height: auto;
+    padding: 9%;
+    font-size: 22px;
+    margin-right: 100px;
+    
+
+  }
+  .head h1{
+    font: 'Shrikhand', cursive;
+  }
+  
+  .head img{
+    width: 160px;
+    height:auto;
+	  
+  
+} 

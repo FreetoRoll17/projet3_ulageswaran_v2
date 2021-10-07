@@ -1,13 +1,10 @@
 
 footer {
     @include fond_sombre;
+    justify-content: left;
+    padding-bottom: 20px;
   }
-    h3 {
-      font-family: "Shrikhand", "sans-serif";
-      padding: 5px 0 20px 0;
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
+    
     ul {
       list-style-type: none;
   
@@ -16,6 +13,14 @@ footer {
   
         a {
           color: white;
+        }
+
+        & .logo-text{
+          font-family: "Shrikhand", "sans-serif";
+          text-transform: none;
+          height: auto;
+          color: white;
+          font-size: 15px;
         }
       }
     }
@@ -27,4 +32,6 @@ footer {
     margin-right: 5px;
   }
 
-  
+  li {
+    font-family: 'Roboto', sans-serif;
+}

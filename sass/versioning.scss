@@ -1,0 +1,172 @@
+@media screen and (max-width: 414px) 
+{
+
+}
+
+@media screen and (min-width: 415px) and (max-width:1024px)
+{
+
+    header{
+        margin-left: 25%;
+    }
+
+    .barre{
+        margin-left: 10px;
+    }
+
+    .fonction__etape li{
+        width: 530px;
+    }
+
+    .block__restaurant{
+
+        
+        height:550px;
+        width: 740px;
+    }
+
+    
+    .block__resto {
+        background-color: white;
+        border-radius: 25px 25px 25px 25px; 
+        width: 300px;
+        height: 225px;
+        margin: 10px;
+        line-height: 0px;
+        padding: 0,2px;
+
+
+
+        .lieu_coeur {
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .coeur{
+        padding-right: 10px;
+        }
+
+        p {
+        font-size: 16px;
+        margin-left: 10px;
+        }
+        h4 {
+        margin-left: 10px;
+        }
+
+        img{
+        height: 150px;
+        width: 300px;
+        object-fit: cover ;
+        border-radius: 25px 25px 0px 0px;
+        margin: 0px;
+        
+        }
+    
+     }
+
+    
+.new-1{
+  
+    display: none;
+    position: relative;
+    background-color: #3498db;
+    width: 50px;
+    padding: 4%;
+    position: absolute;
+    z-index: 9999;
+    right: 30px;
+    background-color: #99E2D0;
+    color: #3d796a;
+    padding-left: 15px;
+    padding-right: 30px;
+  }
+  
+  .new-2{
+    
+  
+    padding: 4%;
+    position: absolute;
+    z-index: 9999;
+    
+    right: 30px;
+    background-color: #99E2D0;
+    color: #3d796a;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 80px;
+  }
+      
+}
+
+@media screen and (min-width: 1010px)
+{
+    body{
+        width: auto;
+    }
+
+    header{
+        width: 1024px;
+        margin-left: 50%;
+    }
+    
+    .logo img{
+        width: 160px;
+        height: auto;
+        margin: 0%;
+        padding-left: 0%;
+    }  
+    
+
+    .fonction__etape li{
+        width: 330px;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .block__resto {
+
+        background-color: white;
+        border-radius: 25px 25px 25px 25px; 
+        width: 300px;
+        height: 225px;
+        margin: 10px;
+        line-height: 0px;
+        padding: 0,2px;
+        
+
+
+
+        .lieu_coeur {
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .coeur{
+        padding-right: 10px;
+        }
+
+        p {
+        font-size: 16px;
+        margin-left: 10px;
+        }
+        h4 {
+        margin-left: 10px;
+        }
+
+        img{
+        height: 150px;
+        width: 20px;
+        object-fit: cover ;
+        border-radius: 25px 25px 0px 0px;
+        margin: 0px;
+        
+        }
+    
+     }
+}
+
+
+

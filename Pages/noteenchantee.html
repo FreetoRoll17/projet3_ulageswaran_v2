@@ -4,6 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood - La note enchantée</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3362924287.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -13,7 +16,12 @@
 </div>
     <!--Tête de page -->
     <header class="head">
-        <h1><a href="index.html"><img src="../images/ohmyfood.png" alt=""></a></h1>
+        <div class="arrow">
+            <a href="../index.html">
+            <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
+        <h1><a href="../index.html"><img src="../images/ohmyfood.png" alt=""></a></h1>
         
     </header>
     <!-- Corps de la page -->
@@ -30,6 +38,7 @@
                     <div class="entree">
                         <div class="entree__titre">
                             <h3>Entrées</h3>
+                            <div class="line"></div>
                         </div>
                         <!-- Entrées-->
                         <div class="item"><!--à répéter-->
@@ -93,6 +102,7 @@
                     <div class="plats">
                         <div class="plats__titre">
                             <h3>Plats</h3>
+                            <div class="line"></div>
                         </div>
                         <div class="item"><!--à répéter-->
                             <div class="animation_check">
@@ -139,6 +149,7 @@
                     <div class="dessert">
                         <div class="dessert__titre">
                             <h3>Desserts</h3>
+                            <div class="line"></div>
                         </div>
                         <div class="item"><!--à répéter-->
                             <div class="animation_check">
@@ -195,12 +206,12 @@
      <!--Pied de page-->
      <!--Pied de page-->
      <footer>
-        <h3>ohmyfood</h3>
         <ul>
+            <li><p class="logo-text">OhMyFood</p></li>
             <li><i class="fas fa-utensils"></i><a href="#"> Proposer un restaurant</a></li>
             <li><i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a></li>
             <li><a href="#">Mentions légales</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="mailto:contact@ohmyfood.fr">Contact</a></li>
         </ul>
     </footer>
 </body>

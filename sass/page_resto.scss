@@ -3,9 +3,13 @@
 
 
 h2 {
-  font-family: 'Shrikhand', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
+h3{
+  font-weight: lighter;
+  text-transform: uppercase ;
+}
 .restaurant {
     background-color: gainsboro;
     padding: 30px 5px 30px 5px;
@@ -33,6 +37,7 @@ h2 {
     }
 
     p {
+      font-size: 16px;
       margin-left: 10px;
     }
     h4 {
@@ -57,46 +62,43 @@ h2 {
   
 
   /*Page restaurant*/
-  .head{
-    background-color:orange;
-    display: flex;
-    justify-content: space-between;
-    max-width: 255px;
-  }
-  .arrow{
-    background-color: yellow;
-    margin-top: 20px;
-  }
-  .fa-arrow-left{
-    width:  auto;
-    height: auto;
-    padding: 9%;
-    font-size: 22px;
 
-  }
-  .head h1{
-    font: 'Shrikhand', cursive;
-  }
+
+
+
+
   
-  .head img{
-    width: 160px;
-    height:auto;
-	  
-  
-} 
   p{
     font-size: 12px;
+  }
+
+
+
+  .line {
+    width: 40px;
+    border: 2px solid $color-tertiary;
+    
   }
 
   .menu__titre{
     display: flex;
     justify-content: space-between;
+
+    h2{
+      font-family: "Shrikhand", "sans-serif";
+      font-size: 30px;
+    }
     .fa-heart{
       margin: 7%;
       size: 50px;
       font-size: 20px;
     }
     
+  .plats_titre{
+    padding: 0px;
+    margin:0px;
+  }
+  
   }
   .repas__titre {
     font-weight: bolder;
@@ -135,10 +137,17 @@ h2 {
       margin: 5px 0px 0px 313px;
       border-radius: 0px 25px 25px 0px;
       width: 45px;
+      opacity: 0;
+      transition: transform 330ms ease-in-out;
+      & .fa-check-circle {
+        color: #fff;
+        transition: transform 500ms ease-in-out;
+      }
       
-     
     }
 
+
+    
     .fa-check-circle {
       color: white;
       line-height: 75px;
@@ -151,7 +160,7 @@ h2 {
 
     @keyframes rotate {
       0% {
-        transform: rotate(-380deg);
+        transform: rotate(-360deg);
       }
       100% {
         transform: rotate(0deg);
@@ -162,6 +171,9 @@ h2 {
       width: 295px;
       border-radius: 25px 0px 0px 25px;
       transition: 0.5s ease-in;
+      .long {
+        text-overflow: ellipsis;
+      }
     }
 
     .animation_check:hover .check {
