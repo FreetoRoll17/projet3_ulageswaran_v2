@@ -62,7 +62,7 @@ h1 {
       bottom: 5px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #9356DC;
+      border-top-color: $color-primary;
 
       -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -77,7 +77,7 @@ h1 {
       bottom: 15px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #99E2D0;
+      border-top-color: $color-tertiary;
 
       -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -202,7 +202,7 @@ a {
       text-align: center;
     }
     p {
-      text-align: clenter;
+      text-align: center;
       color: #4d4d4d;
     }
   }
@@ -212,7 +212,7 @@ a {
   }
   .btn_explorer{ /*revoir class pour mieux styliser/center*/
 
-    background: linear-gradient(-50deg ,#9356DC, #FF79DA);
+    background: linear-gradient(-50deg ,$color-primary, $color-secondary);
       color:white;
       padding: 15px;
       width: 230px;
@@ -238,17 +238,9 @@ a {
   .fonction__etape {
     list-style-type: none;
     padding: 3px;
-    margin-left: 15px;
+    margin-left: 10%;
   }
-  @media screen and (min-width: 768px) {
-    .fonction__etape {
-      flex-wrap: wrap;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+  
   .fonction__etape li {
     display: flex;
     flex-direction: row;
@@ -268,13 +260,14 @@ a {
     background: #f2eafb;
   }
   .fonction__etape li:hover .fas {
-    color: #9356dc;
+    color: $color-primary;
   }
   .fonction__etape--num {
-    background-color: #9356dc;
+    background-color: $color-primary;
     color: white;
     border-radius: 50%;
     padding: 5px 9px;
+    margin-left: 40px;
   }
 
 
@@ -332,8 +325,11 @@ text-transform: uppercase ;
     margin: 0px;
     
   }
-  
-  
+
+  .lieu_restaurant{
+    font-weight: 100;
+  }
+   
 }
   
   /*autre*/
@@ -366,9 +362,9 @@ text-transform: uppercase ;
 }
 
 .block__resto a .fa-heart:hover {
-color: #9356DC;
+color: $color-primary;
 -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #9356DC;
+-webkit-text-stroke-color: $color-primary;
 }
 
 
@@ -387,7 +383,7 @@ color: #9356DC;
   position: absolute;
   z-index: 9999;
   right: 30px;
-  background-color: #99E2D0;
+  background-color: $color-tertiary;
   color: #3d796a;
   padding-left: 15px;
   padding-right: 30px;
@@ -405,19 +401,16 @@ color: #9356DC;
   z-index: 9999;
   
   right: 30px;
-  background-color: #99E2D0;
+  background-color: $color-tertiary;
   color: #3d796a;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 80px;
   animation: new 1s ease-in-out 3s forwards;
   pointer-events: none;
-
-
 }
 
 
-  
 @keyframes new {
   0% {
     opacity: 0;

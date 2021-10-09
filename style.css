@@ -131,6 +131,15 @@
     margin: 0px;
   }
 }
+@media screen and (min-width: 768px) {
+  .fonction__etape {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /*accueil*/
 .head-accueil {
   width: 400px;
@@ -143,7 +152,7 @@
   padding-left: 27%;
 }
 
-/*restaurant*/
+/* header pour les pages restaurants*/
 .head {
   display: flex;
   justify-content: space-between;
@@ -173,7 +182,6 @@
 
 footer {
   background-color: #353535;
-  color: white;
   justify-content: left;
   padding-bottom: 20px;
 }
@@ -205,58 +213,6 @@ ul li .logo-text {
 
 li {
   font-family: "Roboto", sans-serif;
-}
-
-/*--Restaurants*/
-h2 {
-  font-family: "Roboto", sans-serif;
-}
-
-h3 {
-  font-weight: lighter;
-  text-transform: uppercase;
-}
-
-.restaurant {
-  background-color: gainsboro;
-  padding: 30px 5px 30px 5px;
-}
-.restaurant h2 {
-  padding-left: 10px;
-}
-
-.block__resto {
-  background-color: white;
-  border-radius: 25px 25px 25px 25px;
-  height: 225px;
-  margin: 10px;
-  line-height: 0px;
-  padding: 0, 2px;
-}
-.block__resto .lieu_coeur {
-  display: flex;
-  justify-content: space-between;
-}
-.block__resto .coeur {
-  padding-right: 10px;
-}
-.block__resto p {
-  font-size: 16px;
-  margin-left: 10px;
-}
-.block__resto h4 {
-  margin-left: 10px;
-}
-.block__resto img {
-  height: 150px;
-  width: 368px;
-  object-fit: cover;
-  border-radius: 25px 25px 0px 0px;
-  margin: 0px;
-}
-
-.lieu_restaurant {
-  font-weight: 100;
 }
 
 /*Page restaurant*/
@@ -390,6 +346,7 @@ z-index à faire sur .plats_nom (z-index= 2) ou jouer avec flexbox*/
   background: linear-gradient(-50deg, #9356DC, #FF79DA);
   background-blend-mode: lighten;
   color: white;
+  width: 190px;
   padding: 15px;
   border-radius: 25px 25px 25px 25px;
   box-shadow: 4px 4px 6px #000;
@@ -642,7 +599,7 @@ li {
   text-align: center;
 }
 .introduction p {
-  text-align: clenter;
+  text-align: center;
   color: #4d4d4d;
 }
 
@@ -678,18 +635,9 @@ li {
 .fonction__etape {
   list-style-type: none;
   padding: 3px;
-  margin-left: 15px;
+  margin-left: 10%;
 }
 
-@media screen and (min-width: 768px) {
-  .fonction__etape {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-}
 .fonction__etape li {
   display: flex;
   flex-direction: row;
@@ -712,14 +660,15 @@ li {
 }
 
 .fonction__etape li:hover .fas {
-  color: #9356dc;
+  color: #9356DC;
 }
 
 .fonction__etape--num {
-  background-color: #9356dc;
+  background-color: #9356DC;
   color: white;
   border-radius: 50%;
   padding: 5px 9px;
+  margin-left: 40px;
 }
 
 /*--Restaurants*/
@@ -768,6 +717,9 @@ h3 {
   object-fit: cover;
   border-radius: 25px 25px 0px 0px;
   margin: 0px;
+}
+.block__resto .lieu_restaurant {
+  font-weight: 100;
 }
 
 /*autre*/
