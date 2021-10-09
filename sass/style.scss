@@ -1,10 +1,10 @@
-
 @import "versioning";
 @import "variables";
 @import "mixins";
 @import "header";
 @import "footer";
 @import "page_resto";
+
 
 
 /*Loader*/
@@ -44,8 +44,8 @@
   border-radius: 50%;
   border: 3px solid transparent;
   border-top-color: #3498db;
-  -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-  animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+  animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite; 
   z-index: 1001;
 }
 
@@ -64,8 +64,8 @@ h1 {
       border: 3px solid transparent;
       border-top-color: $color-primary;
 
-      -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-      animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+      animation: spin 3s linear infinite; 
+      animation: spin 3s linear infinite; 
   }
 
   #loader:after {
@@ -79,32 +79,32 @@ h1 {
       border: 3px solid transparent;
       border-top-color: $color-tertiary;
 
-      -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-        animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+      animation: spin 1.5s linear infinite; 
+      animation: spin 1.5s linear infinite; 
   }
 
-  @-webkit-keyframes spin {
+  @keyframes spin {
       0%   { 
-          -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-          -ms-transform: rotate(0deg);  /* IE 9 */
-          transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+          transform: rotate(0deg);  
+          transform: rotate(0deg);  
+          transform: rotate(0deg);  
       }
       100% {
-          -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-          -ms-transform: rotate(360deg);  /* IE 9 */
-          transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+          transform: rotate(360deg);  
+          transform: rotate(360deg);  
+          transform: rotate(360deg);  
       }
   }
   @keyframes spin {
       0%   { 
-          -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-          -ms-transform: rotate(0deg);  /* IE 9 */
-          transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+          transform: rotate(0deg);  
+          transform: rotate(0deg);  
+          transform: rotate(0deg);  
       }
       100% {
-          -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
-          -ms-transform: rotate(360deg);  /* IE 9 */
-          transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+          transform: rotate(360deg);  
+          transform: rotate(360deg);  
+          transform: rotate(360deg);  
       }
   }
 
@@ -363,8 +363,6 @@ text-transform: uppercase ;
 
 .block__resto a .fa-heart:hover {
 color: $color-primary;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: $color-primary;
 }
 
 
