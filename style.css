@@ -115,7 +115,7 @@
 
   .btn__commander {
     width: 750px;
-    margin: 50px 400px 50px 320px !important;
+    margin: 50px 400px 50px 120px !important;
   }
 
   .check {
@@ -130,7 +130,7 @@
     margin: 5px 0px 0px 1325px !important;
     border-radius: 0px 25px 25px 0px;
     width: 60px !important;
-    height: 100px;
+    height: 100px !important;
     opacity: 0;
     transition: transform 330ms ease-in-out;
   }
@@ -158,7 +158,7 @@
     background-size: 1424px !important;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /*accueil*/
   .head-accueil {
     width: 400px;
@@ -296,7 +296,7 @@
     margin: 5px 0px 0px 653px !important;
     border-radius: 0px 25px 25px 0px;
     width: 60px !important;
-    height: 100px;
+    height: 100px !important;
     opacity: 0;
     transition: transform 330ms ease-in-out;
   }
@@ -472,13 +472,14 @@ h3 {
   position: absolute;
   opacity: 0;
   justify-items: right;
-  margin-left: 290px;
+  margin-left: 310px;
   justify-content: center;
   background-color: #99E2D0;
   padding: 1px 7px 1px 10px;
   margin: 5px 0px 0px 313px;
   border-radius: 0px 25px 25px 0px;
   width: 45px;
+  height: 75px;
   opacity: 0;
   transition: transform 330ms ease-in-out;
 }
