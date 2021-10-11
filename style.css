@@ -652,7 +652,7 @@ z-index à faire sur .plats_nom (z-index= 2) ou jouer avec flexbox*/
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: #FF79DA;
   animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
   z-index: 1001;
@@ -737,7 +737,7 @@ h1 {
 
 /*body*/
 .loaded {
-  z-index: 9998;
+  z-index: 9995;
 }
 
 p {
@@ -961,11 +961,10 @@ h3 {
 
 .new-1 {
   position: relative;
-  background-color: #3498db;
   width: 50px;
   padding: 4%;
   position: absolute;
-  z-index: 9999;
+  z-index: 9997;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;
@@ -978,7 +977,7 @@ h3 {
 .new-2 {
   padding: 4%;
   position: absolute;
-  z-index: 9999;
+  z-index: 9997;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;
@@ -995,6 +994,8 @@ h3 {
 
 @keyframes new {
   0% {
+    color: #222222;
+    background-color: #222222;
     opacity: 0;
   }
   100% {
