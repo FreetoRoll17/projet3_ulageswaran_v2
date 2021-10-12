@@ -1,6 +1,53 @@
+@media (min-width: 1920px) /*desk 15*/
+    {
+        body{
+            margin: 3%;
+            size: 120%;
+        }
 
+        .head-accueil .logo img
+        {
+            padding-left: 1px!important;
+            height: auto;
+            width: 280px;
+        }
+        
+        .barre input {
+            background: #eaeaea;
+            border-color: #eaeaea;
+            border-style: none;
+            margin-left: 10px;
+            width: 150px;
+            height: 50px;
+        }
 
- @media (min-width: 1324px) 
+        .introduction {
+            background-color: #eeeeee;
+            padding: 10px 10px 40px 40px!important;
+
+            h2 {
+              font-weight: bolder;
+              text-align: center;
+            }
+            p {
+              text-align: center;
+              color: #4d4d4d;
+            }
+        }
+
+        .fonction__etape {
+            display: flex!important;
+            li{
+                width: 500px!important;
+                margin-right: 50px!important;
+            }
+        }
+
+        .flex{
+            margin-left:10%;
+        }
+    }
+ @media (min-width: 1324px) /*desk 15*/
     {
         body{
             width: auto;
@@ -178,7 +225,76 @@
         
 }
 
- 
+@media (max-width: 375px) /*mobile*/
+{
+
+    body{
+        margin: 8px;
+        width: auto;
+    }
+
+    .head-accueil {
+        width: 360px!important;
+        margin-left: 60px;
+    }
+
+     .content{
+       
+     }
+    .block_img img{
+        width: 329px!important;
+    }
+
+    h2 {
+    
+        font-size: 25px!important;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 175px!important;
+
+        .fa-arrow-left{
+            margin-right: 0px!important;
+        }
+
+        h1{
+            margin-left: 80px;
+        }
+
+    }
+
+    p{
+        font-size: 12px!important;
+    }
+
+    .check {
+        transition: ease-in .5s;;
+        position: absolute;
+        opacity: 0;
+        background-color: #99E2D0;
+        padding: 1px 7px 1px 10px;
+        margin: 5px 0px 0px 273px!important;
+        border-radius: 0px 25px 25px 0px;
+        width: 35px;
+        height: 75px;
+        
+        }
+
+        .fa-check-circle {
+            height: 50px;
+            color: white;
+            line-height: 75px;
+            text-indent: 10px;
+            text-align: center;
+            vertical-align: middle;
+            animation-name: rotate;
+            animation-duration: 10s;
+          }
+  
+}
+
 @media (min-width: 768px) and (max-width: 1024px) /*tab*/
 {
 

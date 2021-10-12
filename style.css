@@ -1,4 +1,50 @@
 @charset "UTF-8";
+@media (min-width: 1920px) {
+  body {
+    margin: 3%;
+    size: 120%;
+  }
+
+  .head-accueil .logo img {
+    padding-left: 1px !important;
+    height: auto;
+    width: 280px;
+  }
+
+  .barre input {
+    background: #eaeaea;
+    border-color: #eaeaea;
+    border-style: none;
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+  }
+
+  .introduction {
+    background-color: #eeeeee;
+    padding: 10px 10px 40px 40px !important;
+  }
+  .introduction h2 {
+    font-weight: bolder;
+    text-align: center;
+  }
+  .introduction p {
+    text-align: center;
+    color: #4d4d4d;
+  }
+
+  .fonction__etape {
+    display: flex !important;
+  }
+  .fonction__etape li {
+    width: 500px !important;
+    margin-right: 50px !important;
+  }
+
+  .flex {
+    margin-left: 10%;
+  }
+}
 @media (min-width: 1324px) {
   body {
     width: auto;
@@ -156,6 +202,64 @@
 
   .delice {
     background-size: 1424px !important;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    margin: 8px;
+    width: auto;
+  }
+
+  .head-accueil {
+    width: 360px !important;
+    margin-left: 60px;
+  }
+
+  .block_img img {
+    width: 329px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 175px !important;
+  }
+  header .fa-arrow-left {
+    margin-right: 0px !important;
+  }
+  header h1 {
+    margin-left: 80px;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+
+  .check {
+    transition: ease-in 0.5s;
+    position: absolute;
+    opacity: 0;
+    background-color: #99E2D0;
+    padding: 1px 7px 1px 10px;
+    margin: 5px 0px 0px 273px !important;
+    border-radius: 0px 25px 25px 0px;
+    width: 35px;
+    height: 75px;
+  }
+
+  .fa-check-circle {
+    height: 50px;
+    color: white;
+    line-height: 75px;
+    text-indent: 10px;
+    text-align: center;
+    vertical-align: middle;
+    animation-name: rotate;
+    animation-duration: 10s;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -475,7 +579,7 @@ h3 {
   margin-left: 310px;
   justify-content: center;
   background-color: #99E2D0;
-  padding: 1px 7px 1px 10px;
+  padding: 1px 15px 1px 7px;
   margin: 5px 0px 0px 313px;
   border-radius: 0px 25px 25px 0px;
   width: 45px;
@@ -489,27 +593,18 @@ h3 {
 }
 
 .fa-check-circle {
+  font-size: 30px;
   color: white;
   line-height: 75px;
   text-indent: 10px;
   text-align: center;
   vertical-align: middle;
-  animation-name: rotate;
-  animation-duration: 2s;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(-360deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 .animation_check:hover .plats_nom {
   width: 295px;
   border-radius: 25px 0px 0px 25px;
-  transition: 0.5s ease-in;
+  transition: 0.2s ease-in;
 }
 .animation_check:hover .plats_nom .long {
   margin: 0;
@@ -522,7 +617,10 @@ h3 {
 
 .animation_check:hover .check {
   opacity: 1;
-  transition: ease 0.5s;
+  transition: ease 0.2s;
+}
+.animation_check:hover .check .fa-check-circle {
+  transform: rotate(360deg);
 }
 
 .plats_composants {
@@ -738,7 +836,7 @@ h1 {
 
 /*body*/
 .loaded {
-  z-index: 9995;
+  z-index: 1000;
 }
 
 p {
@@ -835,7 +933,7 @@ li {
 .fonction__etape {
   list-style-type: none;
   padding: 3px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .fonction__etape li {
@@ -965,7 +1063,7 @@ h3 {
   width: 50px;
   padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 999;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;
@@ -978,7 +1076,7 @@ h3 {
 .new-2 {
   padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 999;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;

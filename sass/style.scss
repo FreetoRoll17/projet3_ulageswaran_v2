@@ -135,7 +135,7 @@ h1 {
 /*body*/
 
 .loaded{
-  z-index: 9995;
+  z-index: 1000;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -238,7 +238,7 @@ a {
   .fonction__etape {
     list-style-type: none;
     padding: 3px;
-    margin-left: 10%;
+    margin-left: 5%;
   }
   
   .fonction__etape li {
@@ -378,7 +378,7 @@ color: $color-primary;
   width: 50px;
   padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 999;
   right: 30px;
   background-color: $color-tertiary;
   color: #3d796a;
@@ -395,7 +395,7 @@ color: $color-primary;
 
   padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 999;
   
   right: 30px;
   background-color: $color-tertiary;
@@ -410,6 +410,7 @@ color: $color-primary;
 .new-3{
   display: none;
 }
+
 
 
 @keyframes new {

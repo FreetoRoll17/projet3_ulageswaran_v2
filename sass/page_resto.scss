@@ -80,7 +80,7 @@
       margin-left: 310px;
       justify-content: center;
       background-color: #99E2D0;
-      padding: 1px 7px 1px 10px;
+      padding: 1px 15px 1px 7px;
       margin: 5px 0px 0px 313px;
       border-radius: 0px 25px 25px 0px;
       width: 45px;
@@ -97,28 +97,19 @@
 
     
     .fa-check-circle {
+      font-size: 30px;
       color: white;
       line-height: 75px;
       text-indent: 10px;
       text-align: center;
       vertical-align: middle;
-      animation-name: rotate;
-      animation-duration: 2s;
     }
 
-    @keyframes rotate {
-      0% {
-        transform: rotate(-360deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
 
     .animation_check:hover .plats_nom {
       width: 295px;
       border-radius: 25px 0px 0px 25px;
-      transition: 0.5s ease-in;
+      transition: 0.2s ease-in;
       .long {   
         margin: 0;
         white-space: nowrap;
@@ -133,7 +124,10 @@
     
     .animation_check:hover .check {
       opacity: 1;
-      transition:ease 0.5s;
+      transition:ease 0.2s;
+      .fa-check-circle{
+        transform: rotate(360deg);
+      }
     }
 
     .plats_composants {
