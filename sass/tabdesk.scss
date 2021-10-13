@@ -1,15 +1,23 @@
-@media (min-width: 1920px) /*desk 15*/
+@media (min-width: 1900px) 
     {
         body{
-            margin: 3%;
+            margin-left: 3%;
+            margin-right: 3%;
+            
             size: 120%;
         }
+
 
         .head-accueil .logo img
         {
             padding-left: 1px!important;
+            margin-left: 800px!important;
             height: auto;
             width: 280px;
+        }
+
+        .logo img{
+            margin-left: 100%;
         }
         
         .barre input {
@@ -35,6 +43,125 @@
             }
         }
 
+        .block__resto {
+
+            background-color: white;
+            border-radius: 25px 25px 25px 25px; 
+            width: 600px!important;
+            height: 505px!important;
+            margin: 10px 50px!important;
+            line-height: 0px;
+            padding: 0,2px;
+            justify-content: space-between;
+            
+
+
+
+            .lieu_coeur {
+            display: flex;
+            justify-content: space-between;
+            }
+
+            .coeur{
+            padding-right: 10px;
+            }
+
+            p {
+            font-size: 16px;
+            margin-left: 10px;
+            }
+            h4 {
+            margin-left: 10px;
+            }
+
+            img{
+            height: 419px!important;
+            width: 600px!important;
+            object-fit: cover ;
+            border-radius: 25px 25px 0px 0px;
+            margin: 0px;
+            
+            }
+        
+        }
+
+        .flex{
+            display: flex;
+        }
+
+
+        .arrow{
+            margin-right: 290%;
+        }
+
+
+        h2 {
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 0.8em;
+            margin-block-end:0.8em;
+            margin-inline-start: 0.8em;
+            margin-inline-end: 0.8em;
+            font-weight: bold;
+            line-height: 15px!important;
+            height: 15px!important;
+        } 
+
+        .fa-heart{
+            margin: 30px 50px 0px 0px !important;
+        }
+        .menu__titre{
+            height: 105px!important;
+        
+        }
+        .plats_nom {
+            background-color: white;
+            padding: 1px 10px 1px 5px;
+            margin: 5px;
+            height: 100px!important;
+            width: 1920px!important;
+            line-height: 40px;
+            text-indent: 10px;
+            border-radius: 25px 25px 25px 25px;
+    
+            h4{
+                font-size: 120%;
+            }
+            
+            p{
+                font-size: 120%;
+            }
+          }
+    
+          .btn__commander{
+              width: 750px;
+              margin: 50px 400px 50px 120px!important;
+          }
+    
+          .check{
+            transition: ease-in 0.5s;
+            position: absolute;
+            opacity: 0;
+            justify-items: right;
+            margin-left: 290px;
+            justify-content: center;
+            background-color: #99E2D0;
+            padding: 1px 7px 1px 7px;
+            margin: 5px 0px 0px 1700px!important;
+            border-radius: 0px 25px 25px 0px;
+            width: 60px!important;
+            height: 100px!important;
+            opacity: 0;
+            transition: transform 330ms ease-in-out;
+          }
+    
+          .animation_check:hover .plats_nom {
+            width: 1680px!important;
+            border-radius: 25px 0px 0px 25px;
+            transition: 0.5s ease-in;
+            
+          }
+
         .fonction__etape {
             display: flex!important;
             li{
@@ -46,13 +173,60 @@
         .flex{
             margin-left:10%;
         }
+
+        .fa-check-circle {
+            font-size: 50px!important;
+            color: white;
+            line-height: 75px;
+            text-indent: 10px;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 15px;
+          }
+
+          .btn__commander{
+            width: 750px;
+            margin: 100px 400px 100px 520px!important;
+        }
+
+          .enchantee {
+            background-image: url("images/stil-u2Lp8tXIcjw-unsplash.jpg");
+            background-size: 1924px!important;
+           
+          }
+    
+          .francaise{
+            background-size: 1924px!important;
+          }
+    
+          .palette{
+            background-size: 1924px!important;
+          }
+    
+          .delice{
+            background-size: 1924px!important;
+          }
     }
- @media (min-width: 1324px) /*desk 15*/
+
+/*  
+ @media (min-width: 1300px) 
     {
         body{
             width: auto;
             justify-content: center;
         }
+
+
+        h2 {
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 1.8em;
+            margin-block-end: 1.8em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            line-height: 15px!important;
+        } 
 
         .head-accueil{
             width: auto;
@@ -162,7 +336,7 @@
             padding: 1px 10px 1px 5px;
             margin: 5px;
             height: 100px!important;
-            width: 1495px!important;
+            width: 1895px!important;
             line-height: 40px;
             text-indent: 10px;
             border-radius: 25px 25px 25px 25px;
@@ -189,8 +363,8 @@
             margin-left: 290px;
             justify-content: center;
             background-color: #99E2D0;
-            padding: 1px 7px 1px 7px;
-            margin: 5px 0px 0px 1325px!important;
+            padding: 1px 10px 1px 10px;
+            margin: 5px 0px 0px 1320px!important;
             border-radius: 0px 25px 25px 0px;
             width: 60px!important;
             height: 100px!important;
@@ -199,10 +373,20 @@
           }
     
           .animation_check:hover .plats_nom {
-            width: 1305px!important;
+            width: 1300px!important;
             border-radius: 25px 0px 0px 25px;
             transition: 0.5s ease-in;
             
+          }
+
+          .fa-check-circle {
+            font-size: 50px!important;
+            color: white;
+            line-height: 75px;
+            text-indent: 10px;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 15px;
           }
 
         .enchantee {
@@ -222,9 +406,11 @@
           .delice{
             background-size: 1424px!important;
           }
+
+          
         
 }
-
+*/
 @media (max-width: 375px) /*mobile*/
 {
 

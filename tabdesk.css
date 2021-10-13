@@ -1,3 +1,20 @@
 
 
 erreurs W3c, responsive 1920px sans bug, responsive 375px sans bug, animation coche verte avec icone rotation et prix se deplacant dans le même timing.
+
+
+
+
+animation: new 1s ease-in-out 3s forwards;
+
+@keyframes new {
+    0% {
+      color: #222222;
+      background-color: #222222;
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }

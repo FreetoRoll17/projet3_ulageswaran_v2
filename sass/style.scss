@@ -135,7 +135,7 @@ h1 {
 /*body*/
 
 .loaded{
-  z-index: 1000;
+  z-index: 9995;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -372,19 +372,22 @@ color: $color-primary;
   
 }
 
+
+.btn-new{
+  position: relative;
+}
 .new-1{
   
-  position: relative;
+  
   width: 50px;
   padding: 4%;
   position: absolute;
-  z-index: 999;
+  z-index: 9997;
   right: 30px;
   background-color: $color-tertiary;
   color: #3d796a;
   padding-left: 15px;
   padding-right: 30px;
-  animation: new 1s ease-in-out 3s forwards;
   pointer-events: none;
 
 
@@ -395,7 +398,7 @@ color: $color-primary;
 
   padding: 4%;
   position: absolute;
-  z-index: 999;
+  z-index: 9997;
   
   right: 30px;
   background-color: $color-tertiary;
@@ -403,7 +406,6 @@ color: $color-primary;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 80px;
-  animation: new 1s ease-in-out 3s forwards;
   pointer-events: none;
 }
 
@@ -412,15 +414,3 @@ color: $color-primary;
 }
 
 
-
-@keyframes new {
-  0% {
-    color: #222222;
-    background-color: #222222;
-    opacity: 0;
-  }
-  
-  100% {
-    opacity: 1;
-  }
-}
