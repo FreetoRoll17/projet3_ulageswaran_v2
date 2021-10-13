@@ -41,12 +41,41 @@
             }
         }
 
+        .new-1{
+  
+  
+  
+           
+            
+            
+            padding: 10px 15px 10px 15px;
+            
+            margin-top: 80px;
+            pointer-events: none;
+            margin-top: 685px!important;
+            margin-right: 300px;
+          
+          
+          }
+
+          .new-2{
+
+            padding: 10px 15px 10px 15px;
+            
+            margin-top: 80px;
+            pointer-events: none;
+            margin-top: 685px!important;
+            margin-right: 1010px;
+          
+          
+          }
+
         .block__resto {
 
             background-color: white;
             border-radius: 25px 25px 25px 25px; 
             width: 600px!important;
-            height: 505px!important;
+            height: 504px!important;
             margin: 10px 50px!important;
             line-height: 0px;
             padding: 2px;
@@ -74,7 +103,7 @@
 
             img{
             height: 419px!important;
-            width: 600px!important;
+            width: 601px!important;
             object-fit: cover ;
             border-radius: 25px 25px 0px 0px;
             margin: 0px;
@@ -106,7 +135,7 @@
         } 
 
         .fa-heart{
-            margin: 30px 50px 0px 0px !important;
+            margin: 0px 50px 0px 0px !important;
         }
         .menu__titre{
             height: 105px!important;
@@ -449,6 +478,27 @@
 
     }
 
+    .new-1{
+      
+        padding: 10px 15px 10px 15px;
+        margin-top: 80px;
+        pointer-events: none;
+        margin-top: 845px!important;
+        margin-right: 8px;
+      
+      
+      }
+
+      .new-2{
+
+        padding: 10px 15px 10px 15px;
+        
+        margin-top: 80px;
+        pointer-events: none;
+        margin-top: 1080px!important;
+        margin-right: 8px!important;
+      
+      }
     p{
         font-size: 12px!important;
     }
@@ -553,6 +603,29 @@
         max-width: 750px;
         height: auto;
     }
+
+    .new-1{
+      
+        padding: 10px 15px 10px 15px;
+        margin-top: 80px;
+        pointer-events: none;
+        margin-top: 830px!important;
+        margin-right: 395px;
+      
+      
+      }
+
+      .new-2{
+
+        padding: 10px 15px 10px 15px;
+        
+        margin-top: 80px;
+        pointer-events: none;
+        margin-top: 830px!important;
+        margin-right: 80px!important;
+      
+      }
+
     .block__resto {
 
         background-color: white;
@@ -572,21 +645,7 @@
         margin: 0px;
     }
      
-    .new-2{
-  
-        display:none;
-        padding: 4%;
-        position: absolute;
-        z-index: 9999;
-        
-        right: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 11000px;
-        animation: none;
-      }
 
-      
 
 
       .item {
@@ -639,6 +698,16 @@
         border-radius: 25px 0px 0px 25px;
         transition: 0.5s ease-in;
         
+      }
+
+      .fa-check-circle {
+        font-size: 50px!important;
+        color: white;
+        line-height: 75px;
+        text-indent: 10px;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 15px;
       }
 
       .enchantee {

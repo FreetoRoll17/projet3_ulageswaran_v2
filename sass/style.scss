@@ -135,7 +135,7 @@ h1 {
 /*body*/
 
 .loaded{
-  z-index: 9995;
+  z-index: 999;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -374,21 +374,22 @@ color: $color-primary;
 
 
 .btn-new{
-  position: relative;
+  position: absolute;
 }
 .new-1{
   
   
-  width: 50px;
-  padding: 4%;
+  
   position: absolute;
-  z-index: 9997;
+  z-index: 0;
   right: 30px;
   background-color: $color-tertiary;
   color: #3d796a;
-  padding-left: 15px;
-  padding-right: 30px;
+  padding: 10px 15px 10px 15px;
+  
+  margin-top: 80px;
   pointer-events: none;
+  margin-top: 885px;
 
 
 }
@@ -396,21 +397,19 @@ color: $color-primary;
 .new-2{
   
 
-  padding: 4%;
   position: absolute;
-  z-index: 9997;
-  
+  z-index: 0;
   right: 30px;
   background-color: $color-tertiary;
   color: #3d796a;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 10px 15px 10px 15px;
+  
   margin-top: 80px;
   pointer-events: none;
+  margin-top: 1120px;
 }
 
 .new-3{
   display: none;
 }
-
 

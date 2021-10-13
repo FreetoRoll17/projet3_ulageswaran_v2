@@ -38,11 +38,27 @@
     color: #4d4d4d;
   }
 
+  .new-1 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 685px !important;
+    margin-right: 300px;
+  }
+
+  .new-2 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 685px !important;
+    margin-right: 1010px;
+  }
+
   .block__resto {
     background-color: white;
     border-radius: 25px 25px 25px 25px;
     width: 600px !important;
-    height: 505px !important;
+    height: 504px !important;
     margin: 10px 50px !important;
     line-height: 0px;
     padding: 2px;
@@ -64,7 +80,7 @@
   }
   .block__resto img {
     height: 419px !important;
-    width: 600px !important;
+    width: 601px !important;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
     margin: 0px;
@@ -91,7 +107,7 @@
   }
 
   .fa-heart {
-    margin: 30px 50px 0px 0px !important;
+    margin: 0px 50px 0px 0px !important;
   }
 
   .menu__titre {
@@ -421,6 +437,22 @@
     margin-left: 80px;
   }
 
+  .new-1 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 845px !important;
+    margin-right: 8px;
+  }
+
+  .new-2 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 1080px !important;
+    margin-right: 8px !important;
+  }
+
   p {
     font-size: 12px !important;
   }
@@ -514,6 +546,22 @@
     height: auto;
   }
 
+  .new-1 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 830px !important;
+    margin-right: 395px;
+  }
+
+  .new-2 {
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-top: 830px !important;
+    margin-right: 80px !important;
+  }
+
   .block__resto {
     background-color: white;
     border-radius: 25px 25px 25px 25px;
@@ -530,18 +578,6 @@
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
     margin: 0px;
-  }
-
-  .new-2 {
-    display: none;
-    padding: 4%;
-    position: absolute;
-    z-index: 9999;
-    right: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 11000px;
-    animation: none;
   }
 
   .item {
@@ -591,6 +627,16 @@
     width: 633px !important;
     border-radius: 25px 0px 0px 25px;
     transition: 0.5s ease-in;
+  }
+
+  .fa-check-circle {
+    font-size: 50px !important;
+    color: white;
+    line-height: 75px;
+    text-indent: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
   }
 
   .enchantee {
@@ -1013,7 +1059,7 @@ h1 {
 
 /*body*/
 .loaded {
-  z-index: 9995;
+  z-index: 999;
 }
 
 p {
@@ -1236,33 +1282,31 @@ h3 {
 }
 
 .btn-new {
-  position: relative;
+  position: absolute;
 }
 
 .new-1 {
-  width: 50px;
-  padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 0;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;
-  padding-left: 15px;
-  padding-right: 30px;
+  padding: 10px 15px 10px 15px;
+  margin-top: 80px;
   pointer-events: none;
+  margin-top: 885px;
 }
 
 .new-2 {
-  padding: 4%;
   position: absolute;
-  z-index: 9997;
+  z-index: 0;
   right: 30px;
   background-color: #99E2D0;
   color: #3d796a;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 10px 15px 10px 15px;
   margin-top: 80px;
   pointer-events: none;
+  margin-top: 1120px;
 }
 
 .new-3 {
