@@ -3,7 +3,6 @@
   body {
     margin-left: 3%;
     margin-right: 3%;
-    size: 120%;
   }
 
   .head-accueil .logo img {
@@ -46,7 +45,7 @@
     height: 505px !important;
     margin: 10px 50px !important;
     line-height: 0px;
-    padding: 0, 2px;
+    padding: 2px;
     justify-content: space-between;
   }
   .block__resto .lieu_coeur {
@@ -261,7 +260,7 @@
             height: 505px!important;
             margin: 10px 50px!important;
             line-height: 0px;
-            padding: 0,2px;
+            padding: 2px;
             justify-content: space-between;
 
 
@@ -486,10 +485,6 @@
     margin-right: 100px;
   }
 
-  .head h1 {
-    font: "Shrikhand", cursive;
-  }
-
   .head img {
     width: 160px;
     height: auto;
@@ -526,7 +521,7 @@
     height: 95px;
     margin: 10px;
     line-height: 0px;
-    padding: 0, 2px;
+    padding: 2px;
   }
 
   .block__resto img {
@@ -650,10 +645,6 @@
   margin-right: 100px;
 }
 
-.head h1 {
-  font: "Shrikhand", cursive;
-}
-
 .head img {
   width: 160px;
   height: auto;
@@ -725,7 +716,6 @@ h3 {
 }
 .menu__titre .fa-heart {
   margin: 7%;
-  size: 50px;
   font-size: 20px;
 }
 .menu__titre .plats_titre {
