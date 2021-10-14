@@ -13,6 +13,7 @@
   animation: loader 1s ease-in-out 3s forwards;
   position: fixed;
   pointer-events: none;
+  z-index: 1;
 }
 
 @keyframes loader {
@@ -298,6 +299,7 @@ text-transform: uppercase ;
   margin: 10px;
   line-height: 0px;
   padding: 0,2px;
+  position: relative;
 
 
   .lieu_coeur {
@@ -373,43 +375,25 @@ color: $color-primary;
 }
 
 
-.btn-new{
-  position: absolute;
-}
+
 .new-1{
   
   
   
   position: absolute;
   z-index: 0;
-  right: 30px;
+  top : 10px;
+  right: 10px;
   background-color: $color-tertiary;
   color: #3d796a;
   padding: 10px 15px 10px 15px;
-  
-  margin-top: 80px;
   pointer-events: none;
-  margin-top: 885px;
+
 
 
 }
 
-.new-2{
-  
 
-  position: absolute;
-  z-index: 0;
-  right: 30px;
-  background-color: $color-tertiary;
-  color: #3d796a;
-  padding: 10px 15px 10px 15px;
-  
-  margin-top: 80px;
-  pointer-events: none;
-  margin-top: 1120px;
-}
 
-.new-3{
-  display: none;
-}
+
 
