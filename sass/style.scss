@@ -1,9 +1,10 @@
-@import "tabdesk";
+
 @import "variables";
 @import "mixins";
 @import "header";
 @import "footer";
 @import "page_resto";
+@import "tabdesk";
 
 
 
@@ -173,6 +174,8 @@ a {
   
 
   /* Page principale */ 
+
+  
 
   .barre{
     background: #eaeaea;

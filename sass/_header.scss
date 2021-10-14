@@ -1,20 +1,22 @@
 /*accueil*/
 .head-accueil{
     
-    width: 400px;
+    max-width: 100px;
+    margin: auto;
+
 }
 
+
 .logo img{
-    width: 160px;
+    width: 120px;
     height: auto;
-    margin: 3%;
-    padding-left: 27%;
+   
 }  
  
 /* header pour les pages restaurants*/
+
 .head{
     display: flex;
-    justify-content: space-between;
     max-width: 255px;
   }
   .arrow{

@@ -1,5 +1,5 @@
 
-@media (max-width: 375px) /*mobile*/
+@media (min-width: 375px) and (max-width:413px) /*mobile*/
 {
 
     body{
@@ -7,9 +7,22 @@
         width: auto;
     }
 
+    .center-all{
+
+      max-width: 365px!important;
+      margin: auto;
+      }
+
     .head-accueil {
-        width: 360px!important;
+        
+          padding-left: 0px!important;
+          margin: 0px!important;
+          
        
+    }
+    
+    .arrow{
+      margin-left: 99px;
     }
 
      .content{
@@ -49,7 +62,7 @@
         opacity: 0;
         background-color: #99E2D0;
         padding: 1px 7px 1px 10px;
-        margin: 5px 0px 0px 273px!important;
+        margin: 5px 0px 0px 283px;
         border-radius: 0px 25px 25px 0px;
         width: 35px;
         height: 75px;
@@ -57,47 +70,52 @@
         }
 
         .fa-check-circle {
-            height: 50px;
-            color: white;
-            line-height: 75px;
-            text-indent: 10px;
-            text-align: center;
-            vertical-align: middle;
-            animation-name: rotate;
-            animation-duration: 10s;
+          font-size: 20px!important;
+          color: white;
+          line-height: 75px;
+          text-indent: 10px;
+          text-align: center;
+          vertical-align: middle;
+        }
+    
+
+          .animation_check:hover .plats_nom {
+            width:270px!important;
           }
+
   
 }
 
 
 @media (min-width: 768px) /*tab*/
+
 {
 
-        /*accueil*/
-    .head-accueil{
-        
-        width: 400px;
-        
+
+    .container{
+      max-width: 768px!important;
+      margin: auto!important;
     }
+    
+
+        /*accueil*/
+    
 
     .logo img{
-        width: 160px;
+        max-width: 160px;
         height: auto;
-        margin-left: 150px!important;
-        margin: 7%!important;
+        margin: auto!important;
     }  
     
     /* header pour les pages restaurants*/
     .head{
         display: flex;
-        justify-content: space-between;
         max-width: 255px;
-        h1{
-        margin-left: 70%!important;
-        }
+        
     }
     .arrow{
         margin-top: 15px;
+        margin-right: 190px;
     }
     .fa-arrow-left{
         width:  auto;
@@ -176,19 +194,15 @@
     }
      
 
-
-
-      .item {
-        width: 750px;
-      }
+    
 
       .plats_nom {
         background-color: white;
         padding: 1px 10px 1px 5px;
         margin: 5px;
         height: 100px!important;
-        width: 705px!important;
-        line-height: 40px;
+        width: 710px!important;
+        line-height: 0px;
         text-indent: 10px;
         border-radius: 25px 25px 25px 25px;
 
@@ -261,18 +275,18 @@
         background-size: 800px!important;
       }
 }
-@media (min-width: 1025px) 
+@media (min-width: 1025px)
   {
 
       .center-all{
 
       max-width: 1000px!important;
-      margin: auto;
+      margin: auto!important;
       }
 
       .container{
-        max-width: 1200px;
-        margin: auto;
+        max-width: 1000px!important;
+        margin: auto!important;
       }
 
       body{
@@ -280,29 +294,27 @@
           justify-content: center;
       }
 
-
+      .menu__titre{
+        height: 50px!important;
+      }
       h2 {
           display: block;
           font-size: 1.5em;
-          margin-block-start: 1.8em;
-          margin-block-end: 1.8em;
+          margin-block-start: 0.8em;
+          margin-block-end: 0.8em;
           margin-inline-start: 0px;
           margin-inline-end: 0px;
           font-weight: bold;
           line-height: 15px!important;
       } 
 
-      .head-accueil{
-          width: auto;
-          
-      }
+      
 
       .head{
           display: flex;
-          justify-content: space-between;
           max-width: 255px;
-          h1{
-          margin-left: 200%!important;
+          img{
+          margin-left: 0px!important;
           }
       }
 
@@ -340,8 +352,8 @@
 
           background-color: white;
           border-radius: 25px 25px 25px 25px; 
-          width: 600px!important;
-          height: 505px!important;
+          width: 300px!important;
+          height: 305px!important;
           margin: 10px 50px!important;
           line-height: 0px;
           padding: 2px;
@@ -368,8 +380,8 @@
           }
 
           img{
-          height: 419px!important;
-          width: 600px!important;
+          height: 219px!important;
+          width: 750px!important;
           object-fit: cover ;
           border-radius: 25px 25px 0px 0px;
           margin: 0px;
@@ -382,16 +394,29 @@
           display: flex;
       }
 
+
+      .arrow{
+        margin-right: 330Px;
+    }
+
+
       .menu__titre{
-              display: block;
+              height: 75px!important;
+              display: flex;
+              
               font-size: 1.5em;
               margin-block-start: 0px;
               margin-block-end: 0px;
               margin-inline-start: 0px;
               margin-inline-end: 0px;
               font-weight: bold;
-              height: 130px;
+              
           
+      }
+
+      .fa-heart{
+        margin: 0px!important;
+        top:10px;
       }
 
       .plats_nom {
@@ -399,8 +424,8 @@
           padding: 1px 10px 1px 5px;
           margin: 5px;
           height: 100px!important;
-          width: 1895px!important;
-          line-height: 40px;
+          width: 995px!important;
+          line-height: 0px;
           text-indent: 10px;
           border-radius: 25px 25px 25px 25px;
   
@@ -423,11 +448,10 @@
           position: absolute;
           opacity: 0;
           justify-items: right;
-          margin-left: 290px;
           justify-content: center;
           background-color: #99E2D0;
           padding: 1px 10px 1px 10px;
-          margin: 5px 0px 0px 1320px!important;
+          margin: 5px 0px 0px 890px!important;
           border-radius: 0px 25px 25px 0px;
           width: 60px!important;
           height: 100px!important;
@@ -436,7 +460,7 @@
         }
   
         .animation_check:hover .plats_nom {
-          width: 1300px!important;
+          width: 870px!important;
           border-radius: 25px 0px 0px 25px;
           transition: 0.5s ease-in;
           
@@ -470,6 +494,10 @@
           background-size: 1424px!important;
         }
 
+        .item{
+          max-width:1200px!important;
+        }
+
         
       
 }
@@ -478,32 +506,25 @@
 @media (min-width: 1900px) 
     {
 
-      .container{
-        max-width: 1900px!important;
+      .head{
+        max-width: 1200px;
         margin: auto;
       }
-        .center-all{
-          margin: auto;
-          max-width: 1900px;
+      .head img {
+        width: 160px;
+        height: auto;
+    }
 
-        }
-        body{
-            margin-left: 3%;
-            margin-right: 3%;
-        }
-
-
-        .head-accueil .logo img
-        {
-            padding-left: 1px!important;
-            margin-left: 800px!important;
-            height: auto;
-            width: 280px;
-        }
-
-        .logo img{
-            margin-left: 100%;
-        }
+    .arrow{
+      margin-right: 330Px;
+  }
+      .container{
+        max-width: 1200px!important;
+        margin: auto!important;
+      }
+       
+  
+      
         
         .barre input {
             background: #eaeaea;
@@ -534,8 +555,8 @@
 
             background-color: white;
             border-radius: 25px 25px 25px 25px; 
-            width: 600px!important;
-            height: 504px!important;
+            width: 300px!important;
+            height: 304px!important;
             margin: 10px 50px!important;
             line-height: 0px;
             padding: 2px;
@@ -562,8 +583,8 @@
             }
 
             img{
-            height: 419px!important;
-            width: 601px!important;
+            height: 219px!important;
+            width: 360px!important;
             object-fit: cover ;
             border-radius: 25px 25px 0px 0px;
             margin: 0px;
@@ -575,12 +596,6 @@
         .flex{
             display: flex;
         }
-
-
-        .arrow{
-            margin-right: 290%;
-        }
-
 
         h2 {
             display: block;
@@ -595,10 +610,11 @@
         } 
 
         .fa-heart{
-            margin: 0px 50px 0px 0px !important;
+            margin: 0px 0px 0px 0px !important;
         }
         .menu__titre{
-            height: 105px!important;
+            height: 75px!important;
+            display: flex;
         
         }
         .plats_nom {
@@ -606,8 +622,8 @@
             padding: 1px 10px 1px 5px;
             margin: 5px;
             height: 100px!important;
-            width: 1920px!important;
-            line-height: 40px;
+            width: 1100px!important;
+            line-height: 0px;
             text-indent: 10px;
             border-radius: 25px 25px 25px 25px;
     
@@ -634,7 +650,7 @@
             justify-content: center;
             background-color: #99E2D0;
             padding: 1px 7px 1px 7px;
-            margin: 5px 0px 0px 1700px!important;
+            margin: 5px 0px 0px 900px!important;
             border-radius: 0px 25px 25px 0px;
             width: 60px!important;
             height: 100px!important;
@@ -643,7 +659,7 @@
           }
     
           .animation_check:hover .plats_nom {
-            width: 1680px!important;
+            width: 880px!important;
             border-radius: 25px 0px 0px 25px;
             transition: 0.5s ease-in;
             
@@ -693,6 +709,11 @@
           .delice{
             background-size: 1924px!important;
           }
+
+          .btn__commander{
+            width: 750px;
+            margin: 50px 100px 50px 150px!important;
+        }
     }
 
  
